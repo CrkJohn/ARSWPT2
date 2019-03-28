@@ -1,1 +1,10 @@
-.idea
+target/
+.env
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+docs/tmp/
+docs/java-getting-started/
+docs/deploying-spring-boot-apps/
