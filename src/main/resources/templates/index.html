@@ -208,24 +208,23 @@ html, body {
 	</div>
 
 
-	<div class="row">
-		<div class="col-md-2 col-md-offset-5">
+	<div class="container">
+
 		
 		
-		</div>
 	</div>
-
-	<form class="form-inline">
-		<div class="form-group mx-sm-3 mb-2">
-			<label style="font-family: HelveticaNeue,Helvetica,Arial,sans-serif; padding: 6px 12px; font-size: 16px;">Write name city</label>
-            <input type="search"  class="form-control" name="nameCineInput" style="margin: 20px" id="input" placeholder="city">
-			
-		</div>
-		<button type="button" class="btn btn-info" onclick="app.getWeatherCity()">Buscar</button>
-
-	</form>
 	
-	<div class="table-responsive table-light">
+		</p>
+		
+		<form class="form-inline">
+		  <div class="form-group mx-sm-3 mb-2">
+		    <input type="search"  class="form-control" name="nameCineInput"  id="input" placeholder=" write city">
+		  </div>
+		  <button type="button" class="btn btn-info mb-2" onclick="app.getWeatherCity()">Buscar</button>
+		</form>
+	
+	
+	<div class="table-responsive">
             <table id="tableInfo" class="table table-hover">
                 <thead>
                     <tr>
@@ -239,8 +238,8 @@ html, body {
             </table>
         </div>
 
-	</p>
 
+	</p>
 
 
 	<div id="map-canvas"></div>
